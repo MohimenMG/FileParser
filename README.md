@@ -1,12 +1,11 @@
 # FileParser
 A Python CSV file parsing script that accesses a file hierarchy of sensor data using the OS library to perform transformations for every file and combine rows from different files together
-
-problem:
+## Problem:
 - a client has the sensor data stored in files titled by year from 1975 to 2023
 - each year file has 8 different csv files for a total of 384 files.
 - each file has a time series column as primary recording different parameters
 
-Required:
+## Required:
 1. transform the following columns in all files
   - extract the 3rd comma-separated value in the wnd column and divide it by 10 
   - extract the first comma-separated value in vis column
