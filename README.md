@@ -14,4 +14,4 @@ A Python CSV file parsing script that accesses a file hierarchy of sensor data u
 2. transform the data column
   - set the date frequency to 3 hours and fill in any missing dates leaving the sensors values as nulls
   - set the date format to India Kolkata
-3. merge the November and December of a year with January of the next year file for all years
+3. merge the November and December of a year with January of the following year file for all years
