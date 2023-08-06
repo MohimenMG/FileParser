@@ -2,8 +2,9 @@
 A Python CSV file parsing script that accesses a file hierarchy of sensor data using the OS library to perform transformations for every file and combine rows from different files together
 
 problem:
-- a client has the following file hierarchy of sensor data
-![files](https://github.com/MohimenMG/FileParser/assets/116319838/cda273a5-c899-4e88-960e-9e817cb9c128)
+- a client has the sensor data stored in files titled by year from 1975 to 2023
+- each year file has 8 different csv files for a total of 384 files.
+- each file has a time series column as primary recording different parameters
 
 Required:
 1. transform the following columns in all files
